@@ -1,0 +1,45 @@
+#bg{
+	background: url("images/UMbackground.jpg") no-repeat fixed;
+    background-size: 100%;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-shadow: 0px 0px 2px black, 2px 2px 5px grey;
+}
+
+#register{
+	padding: 30px;
+	padding-top: 100px;
+	border: 1px solid white;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 200px;
+	max-width: 28%;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 10px;
+	font-family: Georgia;
+	font-size: 20px;
+	text-decoration: none;
+	background: white url("images/UM.jpg") no-repeat top center;
+	width: 100%;
+	z-index: -1;
+}
+
+#form{
+	border-radius: 1px solid white;
+	padding-top: 30px;
+	padding-left: 80px;
+	padding-bottom: 40px;
+}
+
+#footer{
+	text-align: bottom;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px white;
+}

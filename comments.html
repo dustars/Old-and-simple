@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enrollment homepage</title>
+    <link rel="icon" href="css/icons/title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainbook.css">
+    <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background: url(css/images/UMbackground.jpg) no-repeat fixed;">
+
+  <div id="header">
+    <span><b>Welcome to the UM course enrollment system</b></span>
+  </div>
+
+  <div class="container text-center" style="height:100%;">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div><ul class="nav navbar-nav">
+              <li><a href="homepage.html">Home</a></li>
+                <li><a href="pcinfo.html">PC informtion</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="manacouse.html">manage course<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="checkcourse.html">My courses</a></li>
+                        <li><a href="preenroll.html">Pre-enroll</a></li>
+                        <li><a href="adddrop.html">Add/drop</a></li>
+                    </ul>
+                <li><a href="searchinfo.html">search course info</a></li>
+                <li><a href="timetable.html">time table</a></li>
+                <li><a href="studyplan.html">study plan</a></li>
+                <li class="active"><a href="findcourse.html">Find course</a></li>
+                <li><a href="bbs.html">student forum</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="welcomepage.html"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="row content">
+          <div class="col-sm-2 sidenav" style="background-color:#e7e7e7;padding:0px;padding-top:25px;height:1560px;">
+              <a href="pcinfo.html" id="user-img"><img src="images/user.jpg" class="img-circle" alt="user" width="110" height="110"></a><br><br>
+              <div class="text-left userinfo">
+                <span>User ID: DB429473</span><br>
+                <span>Name: HUANG DE LIANG</span><br>
+                <span>Major: FST-CP</span><br>
+                <span>Year: 2</span><br>
+              </div>
+                <hr style="border:1px solid black;"><br>
+                <p><a href="checkcourse.html">My course</a></p><br>
+                <p><a href="preenroll.html">pre-enroll course</a></p><br>
+                <p><a href="adddrop.html">add/drop course</a></p><br><hr id="xx"><br><br>
+                <p><a href="data/GE-OfferingCourses.pdf">Offering courses</a></p><br>
+                <p><a href="#">Suggestions</a></p><br>
+                <p><a href="#">comments</a></p><br>
+                <p><a href="#">Reference</a></p><br>
+          </div>
+
+        <div class="col-sm-8 text-left text-justify">
+          <h2 style="text-align:center;"> CISB210 Algorithms and data structures II</h2><br>
+            <table class="table table-striped table-bordered" style="margin:0px;">
+              <thead>
+                <tr>
+                <th>Course Type</th>
+                <th>Faculty</th>
+                <th>Year</th>
+                <th>Credits</th>
+                <th>Time</th>
+              </tr>
+             </thead>
+            <tbody>
+              <tr>
+                 <td>CM</td>
+                <td>FST</td>
+                <td>2 (First semester)</td>
+                <td>3</td>
+                <td>Monday 3:00pm~4:45pm</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-striped table-bordered" style="margin:0px;">
+            <thead>
+              <tr>
+                <th>Quota(Current/total)</th>
+                <th>Teather</th>
+                <th>Pre-requisite</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>60 (59/60)</td>
+                <td>Mrs.Caroline</td>
+                <td>CISB120</td>
+              </tr>
+            </tbody>
+          </table>
+          <li><h4>Click <a href="data/cisb210.pdf">here</a> for details and course description</h4></li>
+          <li><h4>Click <a href="#">here</a> for teacher information</h4><br></li>
+        <div "container-fluid" style="margin:15px;padding:15px;box-shadow:0 0 10px grey;">
+          <h3>Comments:</h3>
+          <div class="row text-right" style="margin:50px;">
+            <div class="col-sm-offset-2 col-sm-8 well well-md text-left" style="margin-top:10px;">
+              No matter u like it or not, learn it!  Otherwise u absolutely will regret oneday.
+            </div>
+            <div class="col-sm-1">
+              <a href="pcinfo.html" data-toggle="tooltip" title="DB238923" data-placement="bottom">
+                <img src="images/user.jpg" class="img-circle" alt="user1" width="80" height="80">
+                <span style="margin-left:5px;color:black;">DB238923</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row text-left" style="margin:50px;">
+            <div class="col-sm-2">
+              <a href="pcinfo.html" data-toggle="tooltip" title="SB352359" data-placement="bottom">
+                <img src="images/user.jpg" class="img-circle" alt="user1" width="80" height="80">
+                <span style="margin-left:5px;color:black;">SB352359</span>
+              </a>
+            </div>
+            <div class="col-sm-8 well well-md" style="margin-top:10px;">
+              Well, my second minor course, and now it's getting harder...I really don't suggest take this as minor major.
+            </div>
+          </div>
+
+          <div class="row text-right" style="margin:50px;">
+            <div class="col-sm-offset-2 col-sm-8 well well-md text-left" style="margin-top:10px;">
+              This course is awesome!<br>
+              Well, I was kidding, never mind :(
+            </div>
+            <div class="col-sm-1">
+              <a href="pcinfo.html" data-toggle="tooltip" title="DB426973" data-placement="bottom">
+                <img src="images/user.jpg" class="img-circle" alt="user1" width="80" height="80">
+                <span style="margin-left:5px;color:black;">DB426973</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row text-left" style="margin:50px;">
+            <div class="col-sm-2">
+              <a href="pcinfo.html" data-toggle="tooltip" title="DB272316" data-placement="bottom">
+                <img src="images/user.jpg" class="img-circle" alt="user1" width="80" height="80">
+                <span style="margin-left:5px;color:black;">DB272316</span>
+              </a>
+            </div>
+            <div class="col-sm-8 well well-md" style="margin-top:10px;">
+              Although I could't say I enjoy the process of learning this course, it did help me a lot.
+            </div>
+          </div>
+
+          <div class="row text-right" style="margin:50px;">
+            <div class="col-sm-offset-2 col-sm-8 well well-md text-left" style="margin-top:10px;">
+              I need to take it again, and that's all.
+            </div>
+            <div class="col-sm-1">
+              <a href="pcinfo.html" data-toggle="tooltip" title="DB358943" data-placement="bottom">
+                <img src="images/user.jpg" class="img-circle" alt="user1" width="80" height="80">
+                <span style="margin-left:5px;color:black;">DB358943</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row text-right" style="margin-right:70px;">
+            <a href="#"><h4>see more..</h5></a>
+          </div>
+          <div class="row text-center" style="height:100px;padding:70px 0px 70px 0px;">
+              <button type="button" class="btn btn-info disabled" data-toggle="collapse" data-target="#demo">Make a comment</button>
+                <div id="demo" class="collapse">
+                  You haven't finished this course.
+                </div>
+          </div>
+          </div>
+
+          <div class="row">
+            <br><a href="templateresult.html"><h4 style="padding-left:60px;">Back</h4></a>
+          </div>
+        </div>
+
+        <div class="col-sm-2 sidenav" style="background-color:#e7e7e7;height:1560px;">
+          <span style="font-size:20px;">Links <span class="glyphicon glyphicon-hand-right"></span> :</span>
+          <div class="well">
+              <a href="http://www.umac.mo/" data-toggle="tooltip" title="University of Macau" data-placement="bottom">
+                  <img src="css/images/UMicon.jpg" alt="UM" class="img-thumbnail" width="100" height="100">
+              </a>
+          </div>
+          <div class="well wellt">
+              <a href="https://ummoodle.umac.mo/">UMMOODLE</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://webmail.umac.mo/">UM webmail</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://isw.umac.mo/">UM ISW</a>
+          </div>
+          <div class="well wellt">
+              <a href="http://library.umac.mo/">UM Library</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+        <p>Enrollment dog team present(Mady by <a href="http://getbootstrap.com/" style="color:cornsilk">bootstrap</a>). All right reserved.</p>
+    </footer>
+</body>
+</html>

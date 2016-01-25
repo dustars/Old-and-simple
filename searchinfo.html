@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enrollment homepage</title>
+    <link rel="icon" href="css/icons/title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainbook.css">
+    <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+      .row.content ul a{
+        margin: 6px;
+        text-decoration: none;
+        color: dimgrey;
+      }
+
+      .row.content ul a:hover{
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px grey;
+        padding: 2px 5px 2px 5px;
+        margin: 0px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+      }
+    </style>
+</head>
+
+<body style="background: url(css/images/UMbackground.jpg) no-repeat fixed;">
+
+  <div id="header">
+    <span><b>Welcome to the UM course enrollment system</b></span>
+  </div>
+
+  <div class="container text-center" style="height:100%;">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div><ul class="nav navbar-nav">
+              <li><a href="homepage.html">Home</a></li>
+                <li><a href="pcinfo.html">PC informtion</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="manacouse.html">manage course<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="checkcourse.html">My courses</a></li>
+                        <li><a href="preenroll.html">Pre-enroll</a></li>
+                        <li><a href="adddrop.html">Add/drop</a></li>
+                    </ul>
+                <li class="active"><a href="searchinfo.html">search course info</a></li>
+                <li><a href="timetable.html">time table</a></li>
+                <li><a href="studyplan.html">study plan</a></li>
+                <li><a href="findcourse.html">Find course</a></li>
+                <li><a href="bbs.html">student forum</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="welcomepage.html"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="row content">
+          <div class="col-sm-2 sidenav" style="background-color:#e7e7e7;padding:0px;padding-top:25px;height:1700px;">
+              <a href="#" id="user-img"><img src="images/user.jpg" class="img-circle" alt="user" width="110" height="110"></a><br><br>
+              <div class="text-left userinfo">
+                <span>User ID: DB429473</span><br>
+                <span>Name: HUANG DE LIANG</span><br>
+                <span>Major: FST-CP</span><br>
+                <span>Year: 2</span><br>
+              </div>
+                <hr style="border:1px solid black;"><br>
+                <p><a href="checkcourse.html">My course</a></p><br>
+                <p><a href="preenroll.html">pre-enroll course</a></p><br>
+                <p><a href="adddrop.html">add/drop course</a></p><br><hr id="xx"><br><br>
+                <p><a href="data/GE-OfferingCourses.pdf">Offering courses</a></p><br>
+                <p><a href="#">Suggestions</a></p><br>
+                <p><a href="#">comments</a></p><br>
+                <p><a href="#">Reference</a></p><br>
+          </div>
+
+        <div class="col-sm-8 text-left text-justify">
+          <br><span style="font-size:20px;"><span class="glyphicon glyphicon-question-sign"></span>
+          If you want to find a specific course, click <a href="findcourse.html">here</a></span>
+          <div class="panel-group" style="padding-top:20px;">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Offering Courses</a></li>
+                  <li><a href="data/GE-OfferingCourses.pdf">GE Offering Courses</a></li>
+                  <li><a href="#">List of Major and Specialization</a></li>
+                  <li><a href="#">List of Minor Codes</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">FAH</div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span style="font-size:25px;">Arts</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Chinese language and literture</a></li>
+                  <li><a href="#">English studies</a></li>
+                  <li><a href="#">Japanese studies</a></li>
+                  <li><a href="#">Portugese studies</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">FBA</div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span style="font-size:25px;">Business Administration</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Business Economics</a></li>
+                  <li><a href="#">Economics and International Finance</a></li>
+                  <li><a href="#">Electronic Business</a></li>
+                  <li><a href="#">Financial Controllership</a></li>
+                  <li><a href="#">Global Business Management</a></li>
+                  <li><a href="#">Human Resources Management</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+                <br><span style="font-size:25px;">Science</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Accounting</a></li>
+                  <li><a href="#">Finance</a></li>
+                  <li><a href="#">Gaming and Hospitality Management</a></li>
+                  <li><a href="#">Hospitality and Gaming Management</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">FED</div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span style="font-size:25px;">Education</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Chinese</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">Pre-Primary Education</a></li>
+                  <li><a href="#">Primary Education</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">FLL</div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span style="font-size:25px;">Chinese language and literature<br>Arts</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Law (Day-time programme taught in Chinese)</a></li>
+                  <li><a href="#">Law (Evening programme taught in Chinese)</a></li>
+                  <li><a href="#">Law (Evening programme taught in Portuguese)</a></li>
+                  <li><a href="#">Law (Taught in Chinese and Portuguese)</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">FST</div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span style="font-size:25px;">Science</span><br>
+                <ul style="list-style-circle;font-size:18px;">
+                  <li><a href="#">Civil Engineering</a></li>
+                  <li><a href="#">Computer Science</a></li>
+                  <li><a href="#">Electrical and Computer Engineering</a></li>
+                  <li><a href="#">Electrical and Electronics Engineering</a></li>
+                  <li><a href="#">Electromechanical Engineering</a></li>
+                  <li><a href="#">Mathematics</a></li>
+                  <li><a href="#">Software Engineering</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 sidenav" style="background-color:#e7e7e7;height:1700px;">
+          <span style="font-size:20px;">Links <span class="glyphicon glyphicon-hand-right"></span> :</span>
+          <div class="well">
+              <a href="http://www.umac.mo/" data-toggle="tooltip" title="University of Macau" data-placement="bottom">
+                  <img src="css/images/UMicon.jpg" alt="UM" class="img-thumbnail" width="100" height="100">
+              </a>
+          </div>
+          <div class="well wellt">
+              <a href="https://ummoodle.umac.mo/">UMMOODLE</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://webmail.umac.mo/">UM webmail</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://isw.umac.mo/">UM ISW</a>
+          </div>
+          <div class="well wellt">
+              <a href="http://library.umac.mo/">UM Library</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+        <p>Enrollment dog team present(Mady by <a href="http://getbootstrap.com/" style="color:cornsilk">bootstrap</a>). All right reserved.</p>
+    </footer>
+</body>
+</html>

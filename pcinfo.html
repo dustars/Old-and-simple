@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enrollment homepage</title>
+    <link rel="icon" href="css/icons/title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainbook.css">
+    <link rel="stylesheet" type="text/css" href="css/pcinfo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background: url(css/images/UMbackground.jpg) no-repeat fixed;">
+
+  <div id="header">
+    <span><b>Welcome to the UM course enrollment system</b></span>
+  </div>
+
+  <div class="container text-center">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div><ul class="nav navbar-nav">
+              <li><a href="homepage.html">Home</a></li>
+                <li class="active"><a href="pcinfo.html">PC informtion</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="manacouse.html">manage course<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="checkcourse.html">My courses</a></li>
+                        <li><a href="preenroll.html">Pre-enroll</a></li>
+                        <li><a href="adddrop.html">Add/drop</a></li>
+                    </ul>
+                <li><a href="searchinfo.html">search course info</a></li>
+                <li><a href="timetable.html">time table</a></li>
+                <li><a href="studyplan.html">study plan</a></li>
+                <li><a href="findcourse.html">Find course</a></li>
+                <li><a href="bbs.html">student forum</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="welcomepage.html"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="row content">
+          <div class="col-sm-10" style="background-color:#e7e7e7;padding:0px;">
+            <div id="pcinfo">
+              <a href="#" id="user-img"><img src="images/user.jpg" class="img-circle" alt="user" width="110" height="110"></a><br><br>
+              HUANG DE LIANG, Den<br>DB429473<br>
+              <div class="row text-left" style="margin:20px;">
+                <div class="col-sm-12" style="">
+                  <div class="panel">
+                    <div class="panel-heading" style="background-color:lightsteelblue;color:black;">
+                      <span class="glyphicon glyphicon-pencil"></span>
+                    </div>
+                    <div class="panel-body">
+                      <p>Hello!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="row text-left" style="margin:20px;">
+              <div class="col-sm-6">
+                <blockquote class="blockquote-reverse">
+                  <h4>Student ID</h4>
+                  <h4>Student Name</h4>
+                  <h4>Gender</h4>
+                  <h4>Major</h4>
+                  <h4>Year</h4>
+                  <h4>Faculty</h4>
+                  <h4>Programme</h4>
+                  <h4>Region</h4>
+                  <h4>Phone NO.</h4>
+                  <h4>College</h4>
+                </blockquote>
+              </div>
+              <div class="col-sm-6" style="margin-top:10px;">
+                <h4>D-B4-2947-3</h4>
+                <h4>HUANG DE LIANG</h4>
+                <h4>Male</h4>
+                <h4>Computer science</h4>
+                <h4>2</h4>
+                <h4>FST</h4>
+                <h4>bachelor</h4>
+                <h4>China, ZhuHai</h4>
+                <h4>6832 XXXX</h4>
+                <h4>CKPC</h4>
+              </div>
+            </div>
+              <div>
+                <ul class="pager" style="padding-right:47px;">
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="#">Edit</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+
+        <div class="col-sm-2 sidenav" style="background-color:#e7e7e7;float:right;">
+          <span style="font-size:20px;">Links <span class="glyphicon glyphicon-hand-right"></span> :</span>
+          <div class="well">
+              <a href="http://www.umac.mo/" data-toggle="tooltip" title="University of Macau" data-placement="bottom">
+                  <img src="css/images/UMicon.jpg" alt="UM" class="img-thumbnail" width="100" height="100">
+              </a>
+          </div>
+          <div class="well wellt">
+              <a href="https://ummoodle.umac.mo/">UMMOODLE</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://webmail.umac.mo/">UM webmail</a>
+          </div>
+          <div class="well wellt">
+              <a href="https://isw.umac.mo/">UM ISW</a>
+          </div>
+          <div class="well wellt">
+              <a href="http://library.umac.mo/">UM Library</a>
+          </div>
+        </div>
+        </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+        <p>Enrollment dog team present(Mady by <a href="http://getbootstrap.com/" style="color:cornsilk">bootstrap</a>). All right reserved.</p>
+    </footer>
+</body>
+</html>

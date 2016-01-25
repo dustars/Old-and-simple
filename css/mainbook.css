@@ -1,0 +1,105 @@
+div#header{
+	margin: 0px;
+	margin-bottom: 70px;
+	border: 0px;
+	height: 50px;
+	box-shadow: 0 0 15px black;
+	padding-left: 8px;
+	padding-top: 3px;
+	background: linear-gradient(to right, dimgrey, dimgrey, lightgrey);
+}
+
+div#header span{
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-shadow: 0 0 3px black;
+}
+
+div.container{
+	padding: 0px;
+	background-color: white;
+	box-shadow: 0 0 10px black;
+	height: 900px;
+	margin-bottom: 150px;
+}
+
+div.container nav{
+	border-radius: 0px;
+	margin-bottom: 0;
+}
+
+.row.content {
+	border: 0px;
+	height: 94.2%;
+	margin: auto;
+}
+
+.userinfo span{
+	padding-left: 15px;
+}
+
+.navbar-nav a:hover{
+	background-color: grey;
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #e7e7e7;
+    height: 100%;
+}
+
+.sidenav a{
+	 color: dimgrey;
+}
+
+.downuser{
+	padding-top:60px;
+	border-top: 1px solid black;
+	box-shadow-top: 0px 0px 5px white;
+}
+
+.downuser a{
+	color: grey;
+}
+
+.wellt{
+	background-color: white;
+}
+
+.wellt a{
+	color: royalblue;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.wellt a:hover{
+	color: black;
+}
+
+.news{
+	list-style-type: circle;
+}
+
+#xx{
+	border:1px solid dimgrey;
+	height:5px;
+	background-color:dimgrey;
+	margin: 0px 15px 0px 15px;
+	border-radius:10px;
+}
+    /* Set black background color, white text and some padding */
+footer{
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+    height: auto;
+    padding: 15px;
+    }
+    .row.content {height:auto;} 
+}

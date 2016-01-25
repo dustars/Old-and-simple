@@ -1,0 +1,101 @@
+#bg{
+	background: url("images/UMbackground.jpg") no-repeat fixed;
+    background-size: 100%;
+}
+
+div#header{
+	margin: 0px;
+	border: 0px;
+	height: 60px;
+	box-shadow: 0 0 15px black;
+	padding-right:20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background: linear-gradient(to right, navy, royalblue);
+}
+
+div#header span{
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-shadow: 0 0 3px black;
+}
+
+div#header a{
+	margin-top: 20px;
+	float: right;
+	color: white;
+}
+
+div#header a:hover{
+	color: black;
+	text-decoration: none;
+	border: 1px solid grey;
+	background-color: royalblue;
+	box-shadow: 0 0 5px black;
+}
+
+div#container{
+	background-color: white;
+	border: 1px solid white;
+	box-shadow: 0px 0px 5px black;
+	margin:70px;
+
+}
+
+div#user-info{
+	background-color: gainsboro;
+	border: 0px solid white;
+	width: 20%;
+	box-shadow: 0px 0px 3px black;
+	height: 250px;
+}
+
+div#user-info img{
+	border: 2px solid black;
+	border-radius: 70px;
+	height: 45%;
+	width: 50%;
+}
+
+div#user-info a{
+	margin-left: 60px;
+}
+
+div#user-info a:hover img{
+	box-shadow: 0px 0px 10px black;
+}
+
+div#user-info span{
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 30px;
+}
+
+div#nav{
+	line-height: 50px;
+    width: 20%;
+    height: 700px;
+    background-color: #EDEDED;
+	box-shadow: 0px 0px 3px black;
+}
+
+div#nav a{
+	display: block;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+div#nav a:hover{
+	border: 1px solid black;
+	padding-top: 9px;
+	padding-bottom: 9px;
+
+    background-color: lightgrey;
+    text-decoration: none;
+}
