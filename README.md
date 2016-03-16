@@ -7,6 +7,8 @@
 
 呼……好在最终还是完成了。
 
+<a href="https://www.youtube.com/watch?v=bfVgR8V4-A4">演示视频（居然有30个人看过！）</a>
+
 
 I made it in a hurry to submit as an assignment of my university course.
 yeah...Very inferior 
